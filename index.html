@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -29,11 +28,68 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
-
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">To-do List</th>
+              <th scope="col">Save Changes</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">9 AM</th>
+              <td><input type="text" id= "todoInput"></td>
+              <td><button id="SaveBtn">Save</button></td>
+              </tr>
+            <tr>
+              <th scope="row">10 AM</th>
+              <td><input type="text" id= "todoInput"></td>
+              <td><button id="SaveBtn">Save</button></td>
+              </tr>
+            <tr>
+              <th scope="row">11 AM</th>
+              <td><input type="text" id= "todoInput"></td>
+              <td><button id="SaveBtn">Save</button></td>
+              </tr>
+            <tr>
+                <th scope="row">12 PM</th>
+                <td><input type="text" id= "todoInput"></td>
+                <td><button id="SaveBtn">Save</button></td>
+              </tr>
+            <tr>
+                <th scope="row">1 PM</th>
+                <td><input type="text" id= "todoInput"></td>
+                <td><button id="SaveBtn">Save</button></td>
+                </tr>
+            <tr>
+                <th scope="row">2 PM</th>
+                <td><input type="text" id= "todoInput"></td>
+                <td><button id="SaveBtn">Save</button></td>
+                </tr>
+            <tr>
+                <th scope="row">3 PM</th>
+                <td><input type="text" id= "todoInput"></td>
+                <td><button id="SaveBtn">Save</button></td>
+                </tr>
+            <tr>
+                <th scope="row">4 PM</th>
+                <td><input type="text" id= "todoInput"></td>
+                <td><button id="SaveBtn">Save</button></td>
+                </tr>
+            <tr>
+                <th scope="row">5 PM</th>
+                <td><input type="text" id= "todoInput"></td>
+                <td><button id="SaveBtn">Save</button></td>
+                </tr>
+          </tbody>
+        </table>
+      </div>
+     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./script.js"></script>
+  </script>
   </body>
 </html>
